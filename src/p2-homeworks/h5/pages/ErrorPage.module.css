@@ -1,0 +1,10 @@
+.page404 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: #d70000d4;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}

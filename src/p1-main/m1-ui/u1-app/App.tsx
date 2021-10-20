@@ -15,7 +15,6 @@ class App extends Component {
                 {/*<HW3/>*/}
                 {/*<HW4/>*/}
                 <HW5/>
-                <span>1</span>
             </div>
         )
     }
