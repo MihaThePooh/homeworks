@@ -7,6 +7,7 @@ function HW5() {
     return (
         <div>
             {/*в gh-pages лучше работает HashRouter*/}
+            homeworks 5
             <HashRouter>
 
             <Header/>

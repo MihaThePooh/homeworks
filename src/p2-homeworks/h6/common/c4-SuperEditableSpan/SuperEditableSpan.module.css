@@ -1,0 +1,9 @@
+.editableSpan {
+    padding: 2px;
+    border-bottom: 2px solid lightslategrey;
+    border-radius: 5px;
+}
+
+.divSpan {
+    margin: 0.85em;
+}

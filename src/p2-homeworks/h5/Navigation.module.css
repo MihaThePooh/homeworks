@@ -1,4 +1,14 @@
-.navigation {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeLink {
+    color: #212529;
+}
+
+/*navigationOnTop*/
+.navigationOnTop {
     padding: 5px;
     background-color: #588cd7;
     color: white;
@@ -7,27 +17,37 @@
     overflow: hidden;
     text-align: center;
 }
-
-.navigation:hover {
+.navigationOnTop:hover {
     height: 130px;
-    overflow: visible;
 }
-
-.navigation ul {
+.navigationOnTop ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
-.navigation ul li {
+.navigationOnTop ul li {
     padding: 5px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+/*navigationOnLeft*/
+.navigationOnLeft {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    background-color: #588cd7;
+    color: white;
+    transition: all 0.3s ease;
+    height: 86px;
+    width: 30px;
+    overflow: hidden;
+    text-align: left;
 }
-
-.activeLink {
-    color: #212529;
+.navigationOnLeft:hover {
+    width: 150px;
+}
+.links {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
 }

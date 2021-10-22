@@ -1,0 +1,7 @@
+.superRadio {
+    width: 1.5em;
+    height: 1.5em;
+    display:  table-cell;
+    vertical-align:  middle;
+    border: 1px solid #333;
+}
