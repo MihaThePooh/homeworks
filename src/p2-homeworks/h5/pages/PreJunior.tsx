@@ -8,7 +8,7 @@ import HW6 from "../../h6/HW6";
 function PreJunior() {
     return (
         <div>
-            <HW6/>
+            {/*<HW6/>*/}
         </div>
     );
 }

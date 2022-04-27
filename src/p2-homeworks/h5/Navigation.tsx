@@ -7,15 +7,15 @@ function Navigation() {
 
     return (
         <>
-            navigationOnTop
-            <div className={s.navigationOnTop}>
-                &equiv;
-                <ul>
-                    <li><NavLink to="/pre-junior" activeStyle={activeStyle}>pre-junior</NavLink></li>
-                    <li><NavLink to="/junior" activeStyle={activeStyle}>junior</NavLink></li>
-                    <li><NavLink to="/junior-plus" activeStyle={activeStyle}>junior-plus</NavLink></li>
-                </ul>
-            </div>
+            {/*navigationOnTop*/}
+            {/*<div className={s.navigationOnTop}>*/}
+            {/*    &equiv;*/}
+            {/*    <ul>*/}
+            {/*        <li><NavLink to="/pre-junior" activeStyle={activeStyle}>pre-junior</NavLink></li>*/}
+            {/*        <li><NavLink to="/junior" activeStyle={activeStyle}>junior</NavLink></li>*/}
+            {/*        <li><NavLink to="/junior-plus" activeStyle={activeStyle}>junior-plus</NavLink></li>*/}
+            {/*    </ul>*/}
+            {/*</div>*/}
 
             navigationOnLeft
             <div className={s.navigationOnLeft}>
