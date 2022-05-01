@@ -28,7 +28,7 @@ function HW10() {
             {/*should work (должно работать)*/}
             {isLoading
                 ? (
-                    <div><img src={preloader} style={{height: "39px"}}/></div>
+                    <div><img src={preloader} style={{height: "39px", marginLeft: "40px"}}/></div>
                 ) : (
                     <div>
                         <SuperButton onClick={setLoading}>set loading...</SuperButton>

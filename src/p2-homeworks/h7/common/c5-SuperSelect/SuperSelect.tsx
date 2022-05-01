@@ -20,7 +20,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     )) : []; // map options with key
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
-        // onChange, onChangeOptio
+        // onChange, onChangeOption
         onChangeOption(e.currentTarget.value)
     }
 
