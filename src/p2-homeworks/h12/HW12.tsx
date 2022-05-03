@@ -3,7 +3,7 @@ import s from "./HW12.module.css";
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "../h10/bll/store";
-import {changeThemeC, colorsArray} from "./bll/themeReducer";
+import {changeThemeAC, colorsArray} from "./bll/themeReducer";
 
 
 function HW12() {
@@ -12,7 +12,7 @@ function HW12() {
 
     // useDispatch, onChangeCallback
     const onChangeOptionHandler = (theme: "default" | "dark" | "red" | "some") => {
-        dispatch(changeThemeC(theme))
+        dispatch(changeThemeAC(theme))
     };
 
     return (

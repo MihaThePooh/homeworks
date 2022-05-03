@@ -8,7 +8,7 @@ const initState: initStateType = {
     color: colorsArray[0]
 };
 
-export const themeReducer = (state = initState, action: ReturnType<typeof changeThemeC>): initStateType => { // fix any
+export const themeReducer = (state = initState, action: ReturnType<typeof changeThemeAC>): initStateType => { // fix any
     switch (action.type) {
         case "CHANGE-THEME": {
             return {
@@ -20,7 +20,7 @@ export const themeReducer = (state = initState, action: ReturnType<typeof change
     }
 };
 
-export const changeThemeC = (newTheme: "default" | "dark" | "red" | "some") => {
+export const changeThemeAC = (newTheme: "default" | "dark" | "red" | "some") => {
     return {
         type: "CHANGE-THEME",
         newTheme
