@@ -2,6 +2,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import {AppStoreType, useTypedDispatch} from "../h10/bll/store";
 import {isCheckedAC, isCheckedTC} from "./isCheckedReducer";
+import {$CombinedState} from "redux";
 
 function HW13() {
     return <Request/>
@@ -10,6 +11,7 @@ function HW13() {
 function Request() {
 
     const isChecked = useSelector<AppStoreType, boolean>(state => state.hw13.isChecked);
+    const responseMessage = useSelector<AppStoreType, string>(state => state.hw13.responseMessage);
     const dispatch = useTypedDispatch();
 
     const onClickHandler = (isChecked: boolean) => {
@@ -25,6 +27,7 @@ function Request() {
         <input type="checkbox"
                checked={isChecked}
                onChange={() => {onChangeCheckboxHandler(isChecked)}}/>
+        <span>{responseMessage}</span>
     </>
 }
 

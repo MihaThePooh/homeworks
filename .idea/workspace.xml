@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a5be092-7365-42e7-ad7b-f4881fc6a5c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/RequestsAPI.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/isCheckedReducer.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/isCheckedReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/bll/themeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/bll/themeReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/isCheckedReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/isCheckedReducer.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +136,8 @@
       <workItem from="1634759421159" duration="111000" />
       <workItem from="1634772418762" duration="14694000" />
       <workItem from="1636181129970" duration="28000" />
-      <workItem from="1651605482002" duration="3762000" />
+      <workItem from="1651605482002" duration="4571000" />
+      <workItem from="1651745256050" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1634754477581</created>
@@ -166,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634916982766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="13 HM is done">
+      <created>1651609373607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651609373607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +191,7 @@
     <MESSAGE value="second comit" />
     <MESSAGE value="menu with routes is done" />
     <MESSAGE value="7hw is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="7hw is done" />
+    <MESSAGE value="13 HM is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 HM is done" />
   </component>
 </project>
